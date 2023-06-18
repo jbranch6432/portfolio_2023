@@ -6,23 +6,25 @@
         <link rel="stylesheet" href="style.css">
         <title>Jamie Branch</title>
     </head>
-        <header class="header">
-        <!--still cannot get image and name to overlay background color and spacing is wrong-->
-                <img class="headshot" src="file:///C:\Users\schwu\Desktop\JB_Headshot.jpg" alt="headshot" width="200" height="200"></h1>
-                <h1>Jamie Branch</h1>
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="file:///C:\Users\schwu\Desktop\JamieBranch_Resume_Example.txt">Resume</a></li>
-                    </ul>
-        </header>
     <body>
+        <div class="header">
+        <!--still cannot get image and name to overlay background color and spacing is wrong-->
+                <div><img class="headshot" src="file:///C:\Users\schwu\Desktop\JB_Headshot.jpg" alt="headshot" width="200" height="220"></h1>
+                <h1 class="name">Jamie Branch</h1>
+            </div>
+                    <ul>
+                        <ul><a href="#about">About</a></ul>
+                        <ul><a href="#portfolio">Portfolio</a></ul>
+                        <ul><a href="#contact">Contact</a></ul>
+                        <ul><a href="file:///C:\Users\schwu\Desktop\JamieBranch_Resume_Example.txt">Resume</a></li>
+                    </ul>
+        </div>
+   
+        <main class="main-wrap">
         <section class="column">
             <a id="about"></a>
-            <aside class="menu">
                 <h2>About</h2>
-            </aside>
+            
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -31,42 +33,45 @@
                culpa qui officia deserunt mollit anim id est laborum.</p>
         </section>
         <!--rename all containers with project name once projects completed-->
-        <section class="work">
-                <h2>Portfolio</h2>
+        <section class="column">
+                <h2 class="portfolio">Portfolio</h2>
                 <a id="portfolio"></a>
-        </section>
+        <div class="work-div">
             <section class="container">
-                <title>Project1</title>
+                <h2>Project 1</h2>
                    <img id="image-project1" 
                         src="https://unsplash.it/1000/500" 
                         href="#!"/>
             </section>
         <div class="flexbox">
             <section class="container2">
-                <h3>Project2</h3>
+                <h3>Project 2</h3>
                 <img id="image-project2"
                      src="https://unsplash.it/250/250"
                      href="#!" />
             </section>
             <section class="container3">
-                <title>Project3</title>
+                <h3>Project 3</h3>
                 <img id="image-project3"
                      src="https://unsplash.it/250/250"
                      href="#!" />
             </section>
             <section class="container4">
-                <title>Project4</title>
+                <h3>Project 4</h3>
                 <img id="image-project4"
                      src= "https://unsplash.it/250/250"
                      href="#!" />
             </section>
             <section class="container5">
-                <title>Project5</title>
+                <h3>Project 5</h3>
                 <img id="image-project5"
                      src= "https://unsplash.it/250/250"
                      href="#!" />
             </section>
         </div>
+        </div>
+        </section>
+    </main>
 </body>
 <footer class="footer">
     <title>Contact</title>
