@@ -2,29 +2,30 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <title>Jamie Branch</title>
     </head>
     <body>
         <div class="header">
-        <!--still cannot get image and name to overlay background color and spacing is wrong-->
-                <div><img class="headshot" src="file:///C:\Users\schwu\Desktop\JB_Headshot.jpg" alt="headshot" width="200" height="220"></h1>
-                <h1 class="name">Jamie Branch</h1>
-            </div>
-                    <ul>
-                        <ul><a href="#about">About</a></ul>
-                        <ul><a href="#portfolio">Portfolio</a></ul>
-                        <ul><a href="#contact">Contact</a></ul>
-                        <ul><a href="file:///C:\Users\schwu\Desktop\JamieBranch_Resume_Example.txt">Resume</a></li>
-                    </ul>
+                <div><img class="headshot" src="file:///C:\Users\schwu\Desktop\JB_Headshot.jpg" alt="headshot" width="150" height="220"></h1>
+                    <h1 class="name">Jamie Branch</h1>
+                </div>
+                    <div class="ul">
+                        <ul>
+                            <ul><a href="#about">About</a></ul>
+                            <ul><a href="#portfolio">Portfolio</a></ul>
+                            <ul><a href="#contact">Contact</a></ul>
+                            <ul><a href="file:///C:\Users\schwu\Desktop\JamieBranch_Resume_Example.txt">Resume</a></li>
+                        </ul>
+                    </div>
+                    
         </div>
    
-        <main class="main-wrap">
         <section class="column">
             <a id="about"></a>
                 <h2>About</h2>
-            
+         <!--still need to add in description-->   
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -33,58 +34,62 @@
                culpa qui officia deserunt mollit anim id est laborum.</p>
         </section>
         <!--rename all containers with project name once projects completed-->
-        <section class="column">
-                <h2 class="portfolio">Portfolio</h2>
+        <section class="column2">
                 <a id="portfolio"></a>
+                    <h2>Portfolio</h2>
         <div class="work-div">
             <section class="container">
                 <h2>Project 1</h2>
-                   <img id="image-project1" 
+                   <img id="image-project1" style="width:100%"
                         src="https://unsplash.it/1000/500" 
                         href="#!"/>
             </section>
+        </div>
         <div class="flexbox">
             <section class="container2">
                 <h3>Project 2</h3>
-                <img id="image-project2"
-                     src="https://unsplash.it/250/250"
+                <img id="image-project2" style="width:95%"
+                     src="https://unsplash.it/500/500"
                      href="#!" />
             </section>
             <section class="container3">
                 <h3>Project 3</h3>
-                <img id="image-project3"
-                     src="https://unsplash.it/250/250"
+                <img id="image-project3" style="width:95%"
+                     src="https://unsplash.it/500/500"
                      href="#!" />
             </section>
             <section class="container4">
                 <h3>Project 4</h3>
-                <img id="image-project4"
-                     src= "https://unsplash.it/250/250"
+                <img id="image-project4" style="width:95%"
+                     src= "https://unsplash.it/500/500"
                      href="#!" />
             </section>
             <section class="container5">
                 <h3>Project 5</h3>
-                <img id="image-project5"
-                     src= "https://unsplash.it/250/250"
+                <img id="image-project5" style="width:95%"
+                     src= "https://unsplash.it/500/500"
                      href="#!" />
             </section>
         </div>
-        </div>
         </section>
-    </main>
-</body>
-<footer class="footer">
-    <title>Contact</title>
+    <div>
+        <footer class="footer">
+            <title>Contact</title>
              <a id="contact"></a>
-             <h2>Contact</h2>
-    <div class="Contact"></div>
-    <div class="bottom-links">
-      <div class="links">
-        <a href="#!">555-555-5555<i class="fab fa-telephone"></i></a>
-        <a href="#!">jamiebranch@email.com<i class="fab fa-email"></i></a>
-        <a href="#!">Github<i class="fab fa-github"></i></a>
-        <a href="#!">Twitter<i class="fab fa-twitter"></i></a>
-        <a href="#!">Spotify<i class="fab fa-spotify"></i></a>
-      </div>
+             <footer>
+                <h2>Contact</h2>
+            </footer>
+            <div class="Contact">
+            <div class="bottom-links">
+                <div class="links">
+                    <!--need to update with correct contact info-->
+                    <a href="#!">555-555-5555<i class="fab fa-telephone"></i></a>
+                    <a href="#!">jamiebranch@email.com<i class="fab fa-email"></i></a>
+                    <a href="#!">Github<i class="fab fa-github"></i></a>
+                    <a href="#!">Twitter<i class="fab fa-twitter"></i></a>
+                    <a href="#!">Spotify<i class="fab fa-spotify"></i></a>
+                </div>
+            </div>
+            </footer>
     </div>
-  </footer>
+    </body>
